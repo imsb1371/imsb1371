@@ -66,21 +66,15 @@ function About() {
             </h2>
             <div style={{ color: '#334155', lineHeight: 1.8, fontSize: '0.975rem' }}>
               <p style={{ marginBottom: '1rem' }}>
-                I am a Postdoctoral Research Fellow at the MIT Media Lab, where I work with the
-                Collective Intelligence group on AI-assisted knowledge discovery systems.
-                My research sits at the intersection of human-computer interaction, machine learning,
-                and the science of science — I design tools that help researchers, analysts, and
-                knowledge workers make sense of large, complex information spaces.
+                I am a Postdoctoral Researcher at Central South University, where I work with the School of Resources and Safety Engineering on machine learning and probabilistic modeling for environmental and hazard resilience. My research sits at the intersection of civil engineering, data science, and risk assessment — I design data-driven models that help engineers and decision-makers predict infrastructure performance and environmental risks under extreme events.
               </p>
               <p style={{ marginBottom: '1rem' }}>
-                I completed my Ph.D. in Computer Science (HCI track) at Stanford University, advised by
-                Prof. Michael Bernstein. My dissertation developed computational and interface approaches
-                for supporting collaborative sensemaking in distributed scientific teams.
+                I completed my Ph.D. in Earthquake Engineering at Amirkabir University of Technology. My dissertation developed advanced seismic evaluation models for concrete structures, integrating axial, flexural, and shear interactions, while my recent work expands into uncertainty quantification and AI applications for natural hazards and contamination remediation.
+
               </p>
               <p>
-                Beyond research, I care deeply about open science. All of my projects are released
-                as open-source software, and I actively mentor early-career researchers through
-                MIT's UROP program and informal advising.
+Beyond research, I care deeply about advancing resilient infrastructure and environmental safety. I have published extensively in Q1/Q2 journals (including the CMES Best Paper Award 2024) and actively mentor graduate students in machine learning applications for hazard and resilience engineering. I strive to bridge the gap between traditional structural engineering and modern data-driven methodologies.
+
               </p>
             </div>
 
