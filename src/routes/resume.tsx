@@ -77,7 +77,7 @@ Beyond research, I care deeply about advancing resilient infrastructure and envi
             </div>
 
             <div style={{ display: 'flex', gap: '0.75rem', marginTop: '1.75rem', flexWrap: 'wrap' }}>
-              <a href="mailto:alexchen@mit.edu"
+              <a href="mailto:imsb1371@gmail.com"
                 style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', background: '#0D9488', color: '#fff', padding: '0.6rem 1.25rem', borderRadius: '7px', fontSize: '0.875rem', fontWeight: 600, textDecoration: 'none', transition: 'background 0.2s' }}
                 onMouseOver={e => (e.currentTarget as HTMLElement).style.background = '#0F766E'}
                 onMouseOut={e => (e.currentTarget as HTMLElement).style.background = '#0D9488'}
@@ -98,7 +98,7 @@ Beyond research, I care deeply about advancing resilient infrastructure and envi
           <div style={{ flexShrink: 0 }}>
             <img
               src="/headshot-on-white.jpg"
-              alt="Dr. Alex Chen"
+              alt="Dr. Mohammad Sadegh Barkhordari"
               style={{ width: '180px', height: '220px', objectFit: 'cover', borderRadius: '12px', display: 'block', boxShadow: '0 8px 24px rgba(15,23,42,0.12)' }}
             />
           </div>
