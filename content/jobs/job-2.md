@@ -7,12 +7,12 @@ endDate: 2020-12-31
 summary: Conducted advanced research in earthquake engineering and machine learning, focusing on seismic evaluation of concrete structures, uncertainty quantification, and data-driven modeling for infrastructure resilience as part of PhD dissertation work. 
 tags:
   [
-"Python",
-"MATLAB",
-"Machine Learning",
-"Structural Engineering",
-"Seismic Analysis",
-"OpenSees",
+    "Python",
+    "MATLAB",
+    "Machine Learning",
+    "Structural Engineering",
+    "Seismic Analysis",
+    "OpenSees",
   ]
 ---
 
