@@ -8,7 +8,6 @@ export const Route = createFileRoute('/resume')({
 
 const researchInterests = [
 'Probabilistic Modeling of Natural Hazards',
-'Infrastructure Resilience & Recovery',
 'Uncertainty Quantification & Reliability Analysis',
 'Machine Learning for Engineering Systems',
 'Environmental Risk Assessment',
@@ -18,11 +17,11 @@ const researchInterests = [
 ]
 
 const technicalSkills = [
-  { category: 'Languages', items: ['Python', 'TypeScript', 'R', 'SQL'] },
-  { category: 'ML / NLP', items: ['PyTorch', 'Hugging Face', 'spaCy', 'scikit-learn', 'UMAP'] },
-  { category: 'Frontend', items: ['React', 'D3.js', 'TanStack Router', 'Tailwind CSS'] },
-  { category: 'Infrastructure', items: ['Docker', 'PostgreSQL', 'Neo4j', 'FastAPI'] },
-  { category: 'Research', items: ['Experimental Design', 'IRB Protocols', 'Pre-registration', 'Grounded Theory'] },
+{ category: 'Programming Languages', items: ['Python', 'MATLAB'] },
+{ category: 'Machine Learning & Deep Learning', items: ['TensorFlow', 'PyTorch', 'Ensemble Learning', 'Convolutional Neural Networks', 'Scikit-learn'] },
+{ category: 'Simulation & FEA', items: ['OpenSees', 'ANSYS', 'Finite Element Analysis'] },
+{ category: 'Modeling & Analysis', items: ['Probabilistic Modeling', 'Uncertainty Quantification', 'Reliability Analysis'] },
+{ category: 'Domain Expertise', items: ['Seismic Evaluation', 'Environmental Risk Assessment', 'Structural Health Monitoring'] },
 ]
 
 function About() {
