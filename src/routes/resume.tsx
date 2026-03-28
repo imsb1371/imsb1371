@@ -7,14 +7,14 @@ export const Route = createFileRoute('/resume')({
 })
 
 const researchInterests = [
-  'Human-Computer Interaction',
-  'Collaborative Sensemaking',
-  'AI-Assisted Research Tools',
-  'Computational Social Science',
-  'Qualitative & Mixed Methods',
-  'Knowledge Graph Systems',
-  'Distributed Teamwork',
-  'Information Visualization',
+'Probabilistic Modeling of Natural Hazards',
+'Infrastructure Resilience & Recovery',
+'Uncertainty Quantification & Reliability Analysis',
+'Machine Learning for Engineering Systems',
+'Environmental Risk Assessment',
+'Structural Damage Identification',
+'Data-Driven Decision Support',
+'Extreme Events Simulation',
 ]
 
 const technicalSkills = [
