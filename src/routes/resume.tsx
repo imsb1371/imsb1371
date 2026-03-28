@@ -18,7 +18,7 @@ const researchInterests = [
 
 const technicalSkills = [
 { category: 'Programming Languages', items: ['Python', 'MATLAB'] },
-{ category: 'Machine Learning & Deep Learning', items: ['TensorFlow', 'PyTorch', 'Ensemble Learning', 'Convolutional Neural Networks', 'Scikit-learn'] },
+{ category: 'Machine Learning & Deep Learning', items: ['TensorFlow', 'PyTorch'] },
 { category: 'Simulation & FEA', items: ['OpenSees', 'ANSYS', 'Finite Element Analysis'] },
 { category: 'Modeling & Analysis', items: ['Probabilistic Modeling', 'Uncertainty Quantification', 'Reliability Analysis'] },
 { category: 'Domain Expertise', items: ['Seismic Evaluation', 'Environmental Risk Assessment', 'Structural Health Monitoring'] },
@@ -49,8 +49,7 @@ function About() {
             About Me
           </h1>
           <p style={{ color: '#94A3B8', fontSize: '1.05rem', maxWidth: '600px', lineHeight: 1.7, margin: 0 }}>
-            Researcher, educator, and open-source contributor focused on designing technology
-            that amplifies human curiosity and collaborative potential.
+            Postdoctoral researcher and civil engineer dedicated to integrating machine learning with structural engineering to improve disaster risk reduction and sustainable remediation strategies.
           </p>
         </div>
       </section>
