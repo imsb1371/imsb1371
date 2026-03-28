@@ -4,12 +4,9 @@ summary: B.Sc. in Civil Engineering - GPA 3.8/4.0 (17.2/20)
 startDate: 2010-09-01
 endDate: 2014-12-31
 tags:
-[
-"Civil Engineering",
-"Structural Analysis",
-"Engineering Fundamentals",
-]
-
+  - Civil Engineering
+  - Structural Analysis
+  - Engineering Fundamentals
 ---
 
 **Honors Thesis:** *Toward Adaptive Interfaces for Collaborative Document Editing: A Mixed-Methods Study*
