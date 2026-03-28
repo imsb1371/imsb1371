@@ -102,7 +102,7 @@ function Home() {
                 letterSpacing: '-0.02em',
               }}
             >
-              Dr. Alex Chen
+              Dr. Mohammad Sadegh Barkhordari
             </h1>
 
             <p
