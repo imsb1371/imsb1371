@@ -174,7 +174,7 @@ function Home() {
             }}>
               <img
                 src="/headshot-on-white.jpg"
-                alt="Dr. Alex Chen"
+                alt="Dr. Mohammad Sadegh Barkhordari"
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               />
             </div>
