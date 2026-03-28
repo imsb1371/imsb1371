@@ -8,8 +8,8 @@ export const Route = createFileRoute('/contact')({
 const socialLinks = [
   {
     name: 'Email',
-    handle: 'alexchen@mit.edu',
-    href: 'mailto:alexchen@mit.edu',
+    handle: 'imsb1371@gmail.com',
+    href: 'mailto:imsb1371@gmail.com',
     description: 'Best for research collaborations and speaking invitations.',
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75">
