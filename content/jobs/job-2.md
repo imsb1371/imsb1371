@@ -1,22 +1,20 @@
 ---
-jobTitle: Graduate Research Assistant
-company: Stanford Human-Computer Interaction Group
-location: Stanford, CA
-startDate: 2019-09-01
-endDate: 2023-08-31
-summary: Designed, implemented, and evaluated interactive systems for collaborative sensemaking in distributed research teams as part of PhD dissertation work.
+jobTitle: Graduate Research Assistant & Teaching Assistant
+company: Amirkabir University of Technology
+location: Tehran, Iran
+startDate: 2016-09-01
+endDate: 2020-12-31
+summary: Conducted advanced research in earthquake engineering and machine learning, focusing on seismic evaluation of concrete structures, uncertainty quantification, and data-driven modeling for infrastructure resilience as part of PhD dissertation work. 
 tags:
   [
-    "React",
-    "D3.js",
-    "User Studies",
-    "NLP",
-    "TypeScript",
-    "Qualitative Methods",
+"Python",
+"MATLAB",
+"Machine Learning",
+"Structural Engineering",
+"Seismic Analysis",
+"OpenSees",
   ]
 ---
 
-- Designed and deployed a web-based collaborative annotation platform used by over 200 participants across 12 user studies.
-- Developed novel NLP pipelines for automated thematic analysis of qualitative interview data (Python, spaCy, transformers).
-- Taught undergraduate sections of CS147 (Intro to HCI) as a Teaching Assistant for 3 semesters.
-- Awarded the Stanford Graduate Fellowship and the NSF Graduate Research Fellowship.
+- Implemented probabilistic modeling and finite element analysis (usig OpenSees) to assess seismic performance of reinforced concrete shear walls and high-rise buildings under extreme events.
+- Served as Teaching Assistant for Seismology & Earthquake Engineering courses (2016–2018), responsible for solving sample problems, designing exams, and grading for graduate students. 
