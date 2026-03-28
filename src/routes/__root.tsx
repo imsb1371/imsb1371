@@ -13,7 +13,7 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'Dr. Alex Chen — HCI Researcher',
+        title: 'Dr. Mohammad Sadegh Barkhordari',
       },
       {
         name: 'description',
@@ -184,7 +184,7 @@ function Footer() {
             </h4>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
               {[
-                { href: 'mailto:alexchen@mit.edu', label: 'Email' },
+                { href: 'mailto:imsb1371@gmail.com', label: 'Email' },
                 { href: 'https://linkedin.com/in/dr-alexchen', label: 'LinkedIn' },
                 { href: 'https://github.com/dr-alexchen', label: 'GitHub' },
                 { href: 'https://scholar.google.com', label: 'Google Scholar' },
