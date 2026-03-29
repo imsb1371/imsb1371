@@ -313,9 +313,9 @@ function Contact() {
                 Office
               </h4>
               <p style={{ color: '#334155', fontSize: '0.875rem', lineHeight: 1.7, margin: 0 }}>
-                MIT Media Lab, Room E14-548<br />
-                75 Amherst Street<br />
-                Cambridge, MA 02139<br />
+                Personal Lab, Room 8<br />
+                Azadi Street<br />
+                Tehran, Iran<br />
                 <span style={{ color: '#94A3B8', fontSize: '0.8rem' }}>Response time: 2–4 business days</span>
               </p>
             </div>
