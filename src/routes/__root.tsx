@@ -154,7 +154,7 @@ function Footer() {
             </h3>
             <p style={{ fontSize: '0.85rem', lineHeight: 1.7 }}>
               Postdoctoral Researcher <br />
-              CSU Lab<br />
+              Personal Lab<br />
               Tehran, Iran
             </p>
           </div>
