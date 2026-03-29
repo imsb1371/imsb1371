@@ -18,21 +18,20 @@ const skills = [
 
 const publications = [
   {
-    title: 'CollabSense: Supporting Collaborative Literature Review with Large Language Models',
-    venue: 'CHI 2024',
-    award: 'Best Paper Nominee',
-    year: '2024',
+    title: 'Prediction of zinc, cadmium, and arsenic in european soils using multi-end machine learning models',
+    venue: 'Journal of Hazardous Materials',
+    year: '2025',
   },
   {
-    title: 'Toward Scalable Qualitative Analysis: Combining Grounded Theory with Transformer-Based Topic Models',
-    venue: 'CSCW 2024',
-    year: '2024',
-  },
-  {
-    title: 'Bridging the Gap: Annotation Consistency in Distributed Research Teams',
-    venue: 'CHI 2022',
-    award: 'Honorable Mention',
+    title: 'Structural damage identification using ensemble deep convolutional neural network models',
+    venue: 'Computer Modeling in Engineering & Sciences',
+    award: 'Best Paper',
     year: '2022',
+  },
+  {
+    title: 'Response estimation of reinforced concrete shear walls using artificial neural network and simulated annealing algorithm',
+    venue: 'Structures',
+    year: '2021',
   },
 ]
 
@@ -186,9 +185,9 @@ function Home() {
       <section style={{ backgroundColor: '#1E293B', padding: '1.5rem' }}>
         <div style={{ maxWidth: '1100px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '1rem', textAlign: 'center' }}>
           {[
-            { value: '12+', label: 'Publications' },
-            { value: '200+', label: 'Study Participants' },
-            { value: '3', label: 'Best Paper Awards' },
+            { value: '20+', label: 'Publications' },
+            { value: '50+', label: 'Study Participants' },
+            { value: '1', label: 'Best Paper Awards' },
             { value: '5', label: 'Open-Source Tools' },
           ].map(({ value, label }) => (
             <div key={label}>
