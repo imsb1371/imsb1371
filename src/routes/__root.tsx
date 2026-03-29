@@ -185,10 +185,10 @@ function Footer() {
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
               {[
                 { href: 'mailto:imsb1371@gmail.com', label: 'Email' },
-                { href: 'https://linkedin.com/in/dr-alexchen', label: 'LinkedIn' },
-                { href: 'https://github.com/dr-alexchen', label: 'GitHub' },
-                { href: 'https://scholar.google.com', label: 'Google Scholar' },
-                { href: 'https://www.researchgate.net', label: 'ResearchGate' },
+                { href: 'https://www.linkedin.com/in/imsb1371/', label: 'LinkedIn' },
+                { href: 'https://github.com/', label: 'GitHub' },
+                { href: 'https://scholar.google.com/citations?hl=en&user=ZF3RfMsAAAAJ', label: 'Google Scholar' },
+                { href: 'https://www.researchgate.net/profile/Mohammad-Barkhordari-2', label: 'ResearchGate' },
               ].map(({ href, label }) => (
                 <li key={href}>
                   <a href={href} target="_blank" rel="noopener noreferrer"
