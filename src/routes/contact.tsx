@@ -20,8 +20,8 @@ const socialLinks = [
   },
   {
     name: 'LinkedIn',
-    handle: 'linkedin.com/in/dr-alexchen',
-    href: 'https://linkedin.com/in/dr-alexchen',
+    handle: 'linkedin.com/in/imsb1371',
+    href: 'https://www.linkedin.com/in/imsb1371/',
     description: 'Professional updates and networking.',
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -33,8 +33,8 @@ const socialLinks = [
   },
   {
     name: 'GitHub',
-    handle: 'github.com/dr-alexchen',
-    href: 'https://github.com/dr-alexchen',
+    handle: 'github.com/',
+    href: 'https://github.com/',
     description: 'Open-source projects and code.',
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -55,8 +55,8 @@ const socialLinks = [
   },
   {
     name: 'ResearchGate',
-    handle: 'researchgate.net/profile/alex-chen',
-    href: 'https://www.researchgate.net',
+    handle: 'researchgate.net/profile/Mohammad-Barkhordari-2',
+    href: 'https://www.researchgate.net/profile/Mohammad-Barkhordari-2',
     description: 'Research profile and paper access.',
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -66,8 +66,8 @@ const socialLinks = [
   },
   {
     name: 'Twitter / X',
-    handle: '@alexchen_hci',
-    href: 'https://twitter.com/alexchen_hci',
+    handle: '@msbarkhordari',
+    href: 'https://twitter.com/msbarkhordari',
     description: 'Research commentary and conference updates.',
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
