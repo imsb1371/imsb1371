@@ -118,7 +118,7 @@ function Home() {
             I design, build, and study data-driven systems that help researchers
             make sense of complex environmental systems — at the intersection of{' '}
             <span style={{ color: '#0D9488', fontWeight: 500 }}>machine learning</span>,{' '}
-            <span style={{ color: '#0D9488', fontWeight: 500 }}>environmental engineering</span>, and{' '}
+            <span style={{ color: '#0D9488', fontWeight: 500 }}>engineering systems</span>, and{' '}
             <span style={{ color: '#0D9488', fontWeight: 500 }}>computational modeling</span>.
             </p>
 
