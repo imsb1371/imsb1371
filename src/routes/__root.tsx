@@ -17,7 +17,7 @@ export const Route = createRootRoute({
       },
       {
         name: 'description',
-        content: 'Postdoctoral Research Fellow at MIT Media Lab. Researching AI-assisted knowledge discovery and collaborative sensemaking.',
+        content: 'Postdoctoral Research. Exploring how machine learning can make complex environmental systems more understandable and predictable.',
       },
     ],
   }),
