@@ -17,8 +17,7 @@ const researchInterests = [
 ]
 
 const technicalSkills = [
-{ category: 'Programming Languages', items: ['Python', 'MATLAB'] },
-{ category: 'Machine Learning & Deep Learning', items: ['TensorFlow', 'PyTorch'] },
+{ category: 'Machine Learning &Programming Languages', items: ['TensorFlow', 'PyTorch','Python', 'MATLAB'] },
 { category: 'Simulation & FEA', items: ['OpenSees', 'ANSYS', 'Finite Element Analysis'] },
 { category: 'Modeling & Analysis', items: ['Probabilistic Modeling', 'Uncertainty Quantification', 'Reliability Analysis'] },
 { category: 'Domain Expertise', items: ['Seismic Evaluation', 'Environmental Risk Assessment', 'Structural Health Monitoring'] },
