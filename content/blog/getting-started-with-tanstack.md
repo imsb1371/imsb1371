@@ -1,25 +1,34 @@
 ---
-title: "Designing AI Tools That Researchers Actually Use"
-date: "2024-11-10"
-summary: "Most AI-assisted research tools fail not because of poor algorithms, but because they ignore how scientists actually work. Here's what three years of user studies taught me about designing for adoption."
-tags: ["HCI", "AI", "Research Tools", "Design"]
-author: "Dr. Alex Chen"
+title: "Why Machine Learning Outperforms Building Codes in Structural Engineering"
+date: "2025-03-15"
+summary: "Our latest research shows ML models can predict beam-column joint shear strength with 40% better accuracy than traditional code equations. Here's what this means for structural design."
+tags: ["Machine Learning", "Structural Engineering", "LSTM", "Research"]
+author: "Mohammad Sadegh Barkhordari"
 ---
 
-Three years of designing, deploying, and studying AI-assisted research tools have left me with a conviction: the hardest part of this work is not building a good model — it's understanding the human context into which that model must fit.
+After spending months developing and testing predictive models for reinforced concrete beam-column joints, I've reached a conclusion that challenges how we've approached structural design for decades.
 
-## The Adoption Gap
+## The Problem with Empirical Equations
 
-In study after study, we see the same pattern. A tool performs beautifully in controlled evaluations. Researchers nod along during demos. And then, six months after deployment, the usage analytics show a cliff.
+Every structural engineer knows the drill. You open your code book — ACI 318, Eurocode 8, or CSA A23.3 — and plug numbers into empirical equations. These formulas have served us well, but they come with a fundamental limitation: they consider only a handful of variables.
 
-This is what I call the **adoption gap**: the chasm between a tool's demonstrated value and its sustained use in authentic research workflows.
+In our study of 270 experimental specimens, we found something troubling. **All six major design codes systematically overestimate shear strength** of exterior beam-column joints. The EN 1998-1 equation showed the lowest accuracy (R²=0.688), while even the best-performing code (CSA A23.3) achieved only R²=0.760.
 
-## What We Learned
+## What Changed When We Used ML
 
-After 12 user studies with over 200 participants, three themes emerged consistently.
+We tested four machine learning approaches: Kriging, Bayesian ANN, Multi-kernel RVM, and LSTM neural networks. The results were striking.
 
-**Trust is earned through transparency.** Researchers are skeptical — and rightly so — of black-box recommendations. Tools that surface their reasoning were trusted far more than those that simply produced results.
+The LSTM model achieved **R²=0.977** on testing data — a 28% improvement over the best code equation. More importantly, the prediction errors were dramatically lower:
 
-**Interoperability is non-negotiable.** The best standalone tool loses to a mediocre tool that integrates with Zotero, Overleaf, and Slack. Researchers have established workflows; AI tools need to fit into them, not replace them.
+| Model | RMSE (kN) | MAPE (%) |
+|-------|-----------|----------|
+| LSTM | 55.31 | 9.55 |
+| CSA A23.3 | 186.44 | 28.16 |
+| ACI 318 | 246.35 | 35.53 |
 
-**Augmentation beats automation.** Tools framed as helpers consistently outperformed tools framed as replacements, even when the underlying functionality was identical.
+## Why This Matters
+
+This isn't about replacing engineers with algorithms. It's about giving engineers better tools. The ML models consider 13 input parameters versus 2-3 in code equations. They capture nonlinear interactions that empirical formulas simply cannot.
+
+The key takeaway? **We need to bridge the gap between research and practice.** These models are ready. The question is: how do we get them into the hands of practicing engineers?
+
