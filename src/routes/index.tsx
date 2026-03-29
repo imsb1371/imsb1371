@@ -87,7 +87,7 @@ function Home() {
                 letterSpacing: '0.06em',
                 textTransform: 'uppercase',
               }}>
-                Postdoctoral Research Fellow · MIT Media Lab
+                Postdoctoral researcher working on interpretable machine learning
               </span>
             </div>
 
@@ -115,11 +115,11 @@ function Home() {
                 marginBottom: '2rem',
               }}
             >
-              I design, build, and study interactive systems that help researchers
-              make sense of complex information — at the intersection of{' '}
-              <span style={{ color: '#0D9488', fontWeight: 500 }}>HCI</span>,{' '}
-              <span style={{ color: '#0D9488', fontWeight: 500 }}>machine learning</span>, and{' '}
-              <span style={{ color: '#0D9488', fontWeight: 500 }}>computational social science</span>.
+            I design, build, and study data-driven systems that help researchers
+            make sense of complex environmental systems — at the intersection of{' '}
+            <span style={{ color: '#0D9488', fontWeight: 500 }}>machine learning</span>,{' '}
+            <span style={{ color: '#0D9488', fontWeight: 500 }}>environmental engineering</span>, and{' '}
+            <span style={{ color: '#0D9488', fontWeight: 500 }}>computational modeling</span>.
             </p>
 
             <div className="animate-fade-in-up animate-delay-300" style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
