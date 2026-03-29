@@ -45,7 +45,7 @@ const socialLinks = [
   {
     name: 'Google Scholar',
     handle: 'scholar.google.com',
-    href: 'https://scholar.google.com',
+    href: 'https://scholar.google.com/citations?hl=en&user=ZF3RfMsAAAAJ',
     description: 'Full list of publications and citation metrics.',
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
