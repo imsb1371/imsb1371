@@ -153,9 +153,9 @@ function Footer() {
               Dr. Mohammad Sadegh Barkhordari
             </h3>
             <p style={{ fontSize: '0.85rem', lineHeight: 1.7 }}>
-              Postdoctoral Research Fellow<br />
-              MIT Media Lab<br />
-              Cambridge, MA
+              Postdoctoral Researcher <br />
+              CSU Lab<br />
+              Tehran, Iran
             </p>
           </div>
 
