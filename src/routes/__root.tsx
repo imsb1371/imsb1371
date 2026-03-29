@@ -70,7 +70,7 @@ function Header() {
               letterSpacing: '-0.01em',
             }}
           >
-            Dr. Alex Chen
+            Dr. Mohammad Sadegh Barkhordari
           </Link>
 
           {/* Desktop Nav */}
@@ -150,7 +150,7 @@ function Footer() {
           {/* Brand */}
           <div>
             <h3 style={{ fontFamily: "'Playfair Display', Georgia, serif", color: '#F8FAFC', fontSize: '1.1rem', marginBottom: '0.75rem', fontWeight: 600 }}>
-              Dr. Alex Chen
+              Dr. Mohammad Sadegh Barkhordari
             </h3>
             <p style={{ fontSize: '0.85rem', lineHeight: 1.7 }}>
               Postdoctoral Research Fellow<br />
@@ -204,8 +204,8 @@ function Footer() {
         </div>
 
         <div style={{ borderTop: '1px solid rgba(255,255,255,0.08)', paddingTop: '1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.75rem' }}>
-          <p style={{ fontSize: '0.8rem', margin: 0 }}>© {new Date().getFullYear()} Dr. Alex Chen. All rights reserved.</p>
-          <p style={{ fontSize: '0.8rem', margin: 0 }}>MIT Media Lab · Cambridge, MA</p>
+          <p style={{ fontSize: '0.8rem', margin: 0 }}>© {new Date().getFullYear()} Dr. Mohammad Sadegh Barkhordari. All rights reserved.</p>
+          <p style={{ fontSize: '0.8rem', margin: 0 }}>Iran, Tehran.</p>
         </div>
       </div>
     </footer>
