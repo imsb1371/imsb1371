@@ -1,15 +1,15 @@
 ---
-title: "SenseMaker: Distributed Annotation Platform"
-description: "An open-source, browser-based collaborative annotation and qualitative coding platform designed for distributed research teams, with support for rich media, inter-rater reliability metrics, and export to NVivo/Atlas.ti formats."
-tags: ["TypeScript", "D3.js", "PostgreSQL", "Docker", "Research Tools"]
-github: "https://github.com/dr-alexchen/sensemaker"
-liveUrl: "https://sensemaker-demo.netlify.app"
+title: "Interpretable ML for Electrokinetic Soil Remediation"
+description: "Machine learning framework for predicting heavy metal removal efficiency in electrokinetic remediation with explainable insights."
+tags: ["Machine Learning", "XGBoost", "SHAP", "Environmental Engineering", "Ensemble Learning"]
+paper: "https://doi.org/10.1016/j.jece.2024.114330"
 ---
 
-SenseMaker grew out of my dissertation work on distributed sensemaking. Existing tools were either too expensive for small labs or lacked real-time collaboration features essential for remote teams. SenseMaker is free, self-hostable, and purpose-built for qualitative research workflows.
+Built an interpretable machine learning pipeline to predict heavy metal removal efficiency in electrokinetic soil remediation using experimental data and ensemble models.
 
-**Key features:**
-- Real-time collaborative coding (WebSocket-based)
-- Inter-rater reliability dashboard (Cohen's κ, Krippendorff's α)
-- Timeline and canvas views for multimedia data
-- Used by 12+ research groups across 8 universities
+**Technical highlights:**
+- Compiled dataset of 185+ remediation experiments with soil, electrical, and chemical features
+- Applied Bayesian optimization for hyperparameter tuning
+- Used SHAP for model interpretability and feature importance
+- Identified key drivers: electrode distance, area, electrolyte type, and duration
+- Enables data-driven optimization of remediation efficiency and cost
