@@ -1,6 +1,6 @@
 ---
 title: "ML-PHL: Machine Learning Model for Plastic Hinge Length Prediction in Reinforced Concrete Walls"
-description: "A Random Forest-based prediction model for estimating plastic hinge length (PHL) of reinforced concrete structural walls using 721 planar and nonplanar wall samples, outperforming existing empirical equations."
+description: "A Random Forest-based prediction model for estimating plastic hinge length (PHL) of reinforced concrete structural walls using 721 planar and nonplanar wall samples."
 tags: ["Machine Learning", "Structural Engineering", "Random Forest", "SHAP", "Python", "Seismic Design"]
 github: "https://github.com/[repo-link]"
 ---
