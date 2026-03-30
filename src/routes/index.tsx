@@ -13,9 +13,6 @@ const skills = [
   'Data-Driven Modeling of Infrastructure Systems',
   'Environmental Risk & Heavy Metal Prediction',
   'Python / PyTorch / TensorFlow',
-  'Finite Element Modeling (OpenSees, ANSYS)',
-  'Simulation of Complex Engineering Systems',
-  'Interpretable & Ensemble Learning Models',
 ]
 
 
