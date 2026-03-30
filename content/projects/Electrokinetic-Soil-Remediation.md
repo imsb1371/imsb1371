@@ -1,6 +1,6 @@
 ---
 title: "Interpretable ML for Electrokinetic Soil Remediation"
-description: "Machine learning framework for predicting heavy metal removal efficiency in electrokinetic remediation with explainable insights."
+description: "Machine learning framework for predicting heavy metal removal efficiency in electrokinetic remediation using ensemble models, providing high accuracy and explainable insights for optimizing environmental remediation processes."
 tags: ["Machine Learning", "XGBoost", "SHAP", "Environmental Engineering", "Ensemble Learning"]
 paper: "https://doi.org/10.1016/j.jece.2024.114330"
 ---
