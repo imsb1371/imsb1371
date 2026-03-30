@@ -1,6 +1,6 @@
 ---
 title: "Structural Damage Detection with Ensemble CNNs"
-description: "High-accuracy deep learning system for classifying structural damage from images using ensemble CNN models."
+description: "High-accuracy deep learning system for classifying structural damage from images using ensemble CNN models, improving robustness and outperforming single-model approaches on real-world datasets.."
 tags: ["Deep Learning", "Computer Vision", "CNN", "Ensemble Learning", "Structural Health"]
 paper: "https://doi.org/10.32604/cmes.2022.020840"
 ---
