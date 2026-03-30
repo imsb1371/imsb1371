@@ -7,7 +7,7 @@ export const Route = createFileRoute('/projects')({
   component: Research,
 })
 
-const allTags = ['All', 'HCI', 'NLP', 'Machine Learning', 'Research Tools', 'Open Source']
+const allTags = ['All', 'Computer Vision', 'Environmental Engineering', 'Machine Learning', 'Structural Engineering']
 
 function Research() {
   const [activeTag, setActiveTag] = useState('All')
