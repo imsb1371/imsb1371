@@ -7,7 +7,6 @@ export const Route = createFileRoute('/')({
 
 const skills = [
   'Probabilistic Modeling & Uncertainty Quantification',
-  'Reliability Analysis & Risk Assessment',
   'Machine Learning for Engineering Systems',
   'Natural Hazard & Earthquake Engineering',
   'Data-Driven Modeling of Infrastructure Systems',
