@@ -6,15 +6,18 @@ export const Route = createFileRoute('/')({
 })
 
 const skills = [
-  'Human-Computer Interaction',
-  'Machine Learning',
-  'Qualitative Research',
-  'Natural Language Processing',
-  'Experimental Design',
-  'React / TypeScript',
-  'Python / PyTorch',
-  'D3.js / Data Visualization',
+  'Probabilistic Modeling & Uncertainty Quantification',
+  'Reliability Analysis & Risk Assessment',
+  'Machine Learning for Engineering Systems',
+  'Natural Hazard & Earthquake Engineering',
+  'Data-Driven Modeling of Infrastructure Systems',
+  'Environmental Risk & Heavy Metal Prediction',
+  'Python / PyTorch / TensorFlow',
+  'Finite Element Modeling (OpenSees, ANSYS)',
+  'Simulation of Complex Engineering Systems',
+  'Interpretable & Ensemble Learning Models',
 ]
+
 
 const publications = [
   {
