@@ -32,17 +32,6 @@ const socialLinks = [
     ),
   },
   {
-    name: 'GitHub',
-    handle: 'github.com/',
-    href: 'https://github.com/',
-    description: 'Open-source projects and code.',
-    icon: (
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-      </svg>
-    ),
-  },
-  {
     name: 'Google Scholar',
     handle: 'scholar.google.com',
     href: 'https://scholar.google.com/citations?hl=en&user=ZF3RfMsAAAAJ',
@@ -141,134 +130,34 @@ function Contact() {
 
           {/* Contact Form */}
           <div>
-            <h2 style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: '1.5rem', color: '#0F172A', marginBottom: '1.5rem', fontWeight: 600 }}>
-              Send a Message
-            </h2>
-            <form
-              name="contact"
-              method="POST"
-              data-netlify="true"
-              netlify-honeypot="bot-field"
-              onSubmit={(e) => {
-                e.preventDefault()
-                const form = e.currentTarget
-                const formData = new FormData(form)
-                fetch('/contact.html', {
-                  method: 'POST',
-                  headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                  body: new URLSearchParams(formData as unknown as Record<string, string>).toString(),
-                }).then(() => setSubmitted(true))
-              }}
-              style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}
-            >
-              <input type="hidden" name="form-name" value="contact" />
-              <p hidden><label>Don't fill this out: <input name="bot-field" /></label></p>
-
-              {[
-                { id: 'name', label: 'Name', type: 'text', placeholder: 'Your full name' },
-                { id: 'email', label: 'Email', type: 'email', placeholder: 'your@email.com' },
-                { id: 'affiliation', label: 'Affiliation (optional)', type: 'text', placeholder: 'University / Company' },
-              ].map(({ id, label, type, placeholder }) => (
-                <div key={id}>
-                  <label htmlFor={id} style={{ display: 'block', fontSize: '0.85rem', fontWeight: 600, color: '#334155', marginBottom: '0.4rem' }}>
-                    {label}
-                  </label>
-                  <input
-                    type={type}
-                    id={id}
-                    name={id}
-                    required={!label.includes('optional')}
-                    placeholder={placeholder}
-                    style={{
-                      width: '100%',
-                      padding: '0.7rem 1rem',
-                      border: '1.5px solid #E2E8F0',
-                      borderRadius: '8px',
-                      fontSize: '0.9rem',
-                      color: '#0F172A',
-                      background: '#fff',
-                      outline: 'none',
-                      transition: 'border-color 0.2s',
-                      boxSizing: 'border-box',
-                    }}
-                    onFocus={e => (e.target as HTMLElement).style.borderColor = '#0D9488'}
-                    onBlur={e => (e.target as HTMLElement).style.borderColor = '#E2E8F0'}
-                  />
-                </div>
-              ))}
-
-              <div>
-                <label htmlFor="subject" style={{ display: 'block', fontSize: '0.85rem', fontWeight: 600, color: '#334155', marginBottom: '0.4rem' }}>
-                  Subject
-                </label>
-                <select
-                  id="subject"
-                  name="subject"
-                  style={{ width: '100%', padding: '0.7rem 1rem', border: '1.5px solid #E2E8F0', borderRadius: '8px', fontSize: '0.9rem', color: '#0F172A', background: '#fff', outline: 'none', transition: 'border-color 0.2s', boxSizing: 'border-box' }}
-                  onFocus={e => (e.target as HTMLElement).style.borderColor = '#0D9488'}
-                  onBlur={e => (e.target as HTMLElement).style.borderColor = '#E2E8F0'}
-                >
-                  <option>Research Collaboration</option>
-                  <option>Speaking Invitation</option>
-                  <option>PhD / Postdoc Inquiry</option>
-                  <option>Media / Press</option>
-                  <option>Other</option>
-                </select>
-              </div>
-
-              <div>
-                <label htmlFor="message" style={{ display: 'block', fontSize: '0.85rem', fontWeight: 600, color: '#334155', marginBottom: '0.4rem' }}>
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  required
-                  rows={6}
-                  placeholder="Your message..."
-                  style={{
-                    width: '100%',
-                    padding: '0.7rem 1rem',
+           {/* Contact Message */}
+                <div>
+                  <h2 style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: '1.5rem', color: '#0F172A', marginBottom: '1.5rem', fontWeight: 600 }}>
+                    Get In Touch
+                  </h2>
+                  <div style={{ 
+                    background: '#fff', 
+                    padding: '2rem', 
+                    borderRadius: '10px', 
                     border: '1.5px solid #E2E8F0',
-                    borderRadius: '8px',
-                    fontSize: '0.9rem',
-                    color: '#0F172A',
-                    background: '#fff',
-                    outline: 'none',
-                    resize: 'vertical',
-                    transition: 'border-color 0.2s',
-                    boxSizing: 'border-box',
-                    fontFamily: 'inherit',
-                  }}
-                  onFocus={e => (e.target as HTMLElement).style.borderColor = '#0D9488'}
-                  onBlur={e => (e.target as HTMLElement).style.borderColor = '#E2E8F0'}
-                />
-              </div>
-
-              <button
-                type="submit"
-                style={{
-                  background: '#0D9488',
-                  color: '#fff',
-                  padding: '0.8rem 1.75rem',
-                  borderRadius: '8px',
-                  border: 'none',
-                  cursor: 'pointer',
-                  fontWeight: 600,
-                  fontSize: '0.95rem',
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  gap: '0.5rem',
-                  transition: 'background 0.2s, transform 0.2s',
-                  alignSelf: 'flex-start',
-                }}
-                onMouseOver={e => { (e.currentTarget as HTMLElement).style.background = '#0F766E'; (e.currentTarget as HTMLElement).style.transform = 'translateY(-1px)' }}
-                onMouseOut={e => { (e.currentTarget as HTMLElement).style.background = '#0D9488'; (e.currentTarget as HTMLElement).style.transform = 'translateY(0)' }}
-              >
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
-                Send Message
-              </button>
-            </form>
+                    textAlign: 'center'
+                  }}>
+                    <p style={{ color: '#334155', fontSize: '1.1rem', lineHeight: 1.8, margin: 0 }}>
+                      Please send message to{' '}
+                      <a 
+                        href="mailto:imsb1371@gmail.com" 
+                        style={{ 
+                          color: '#0D9488', 
+                          fontWeight: 600, 
+                          textDecoration: 'none',
+                          borderBottom: '2px solid #0D9488'
+                        }}
+                      >
+                        imsb1371@gmail.com
+                      </a>
+                    </p>
+                  </div>
+                </div>
           </div>
 
           {/* Social Links */}
