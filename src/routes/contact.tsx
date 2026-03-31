@@ -131,20 +131,30 @@ function Contact() {
                     border: '1.5px solid #E2E8F0',
                     textAlign: 'center'
                   }}>
+       
                     <p style={{ color: '#334155', fontSize: '1.1rem', lineHeight: 1.8, margin: 0 }}>
                       Please send message to{' '}
                       <a 
-                        href="mailto:imsb1371@gmail.com" 
+                        href="#" 
+                        onClick={(e) => {
+                          e.preventDefault();
+                          const user = 'imsb1371';
+                          const domain = 'gmail.com';
+                          window.location.href = `mailto:${user}@${domain}`;
+                        }}
                         style={{ 
                           color: '#0D9488', 
                           fontWeight: 600, 
                           textDecoration: 'none',
-                          borderBottom: '2px solid #0D9488'
+                          borderBottom: '2px solid #0D9488',
+                          cursor: 'pointer'
                         }}
                       >
-                        imsb1371{@}gmail.com
+                        imsb1371@gmail.com
                       </a>
                     </p>
+
+                    
                   </div>
                 </div>
             
