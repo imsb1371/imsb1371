@@ -142,7 +142,7 @@ function Contact() {
                           borderBottom: '2px solid #0D9488'
                         }}
                       >
-                        imsb1371@gmail.com
+                        imsb1371{@}gmail.com
                       </a>
                     </p>
                   </div>
