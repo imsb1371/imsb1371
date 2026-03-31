@@ -145,24 +145,21 @@ function Contact() {
               Send a Message
             </h2>
             <form
-              name="contact"
-              method="POST"
-              data-netlify="true"
-              netlify-honeypot="bot-field"
-              onSubmit={(e) => {
-                e.preventDefault()
-                const form = e.currentTarget
-                const formData = new FormData(form)
-                fetch('/contact.html', {
-                  method: 'POST',
-                  headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                  body: new URLSearchParams(formData as unknown as Record<string, string>).toString(),
-                }).then(() => setSubmitted(true))
-              }}
-              style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}
-            >
-              <input type="hidden" name="form-name" value="contact" />
-              <p hidden><label>Don't fill this out: <input name="bot-field" /></label></p>
+  name="contact"
+  method="POST"
+  onSubmit={(e) => {
+    e.preventDefault()
+    const form = e.currentTarget
+    const formData = new FormData(form)
+
+    fetch('/api/contact', {
+      method: 'POST',
+      body: formData,
+    })
+      .then(() => setSubmitted(true))
+      .catch(() => alert('Failed to send message'))
+  }}
+>
 
               {[
                 { id: 'name', label: 'Name', type: 'text', placeholder: 'Your full name' },
