@@ -53,17 +53,6 @@ const socialLinks = [
       </svg>
     ),
   },
-  {
-    name: 'Twitter / X',
-    handle: '@msbarkhordari',
-    href: 'https://twitter.com/msbarkhordari',
-    description: 'Research commentary and conference updates.',
-    icon: (
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-      </svg>
-    ),
-  },
 ]
 
 function Contact() {
@@ -158,6 +147,20 @@ function Contact() {
                     </p>
                   </div>
                 </div>
+            
+            {/* Office info */}
+            <div style={{ marginTop: '2rem', padding: '1.25rem', background: 'rgba(13,148,136,0.05)', border: '1px solid rgba(13,148,136,0.15)', borderRadius: '10px' }}>
+              <h4 style={{ color: '#0D9488', fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: '0.75rem' }}>
+                Office
+              </h4>
+              <p style={{ color: '#334155', fontSize: '0.875rem', lineHeight: 1.7, margin: 0 }}>
+                Personal Lab, Room 8<br />
+                Azadi Street<br />
+                Tehran, Iran<br />
+                <span style={{ color: '#94A3B8', fontSize: '0.8rem' }}>Response time: 2–4 business days</span>
+              </p>
+            </div>
+            
           </div>
 
           {/* Social Links */}
@@ -196,18 +199,8 @@ function Contact() {
               ))}
             </div>
 
-            {/* Office info */}
-            <div style={{ marginTop: '2rem', padding: '1.25rem', background: 'rgba(13,148,136,0.05)', border: '1px solid rgba(13,148,136,0.15)', borderRadius: '10px' }}>
-              <h4 style={{ color: '#0D9488', fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: '0.75rem' }}>
-                Office
-              </h4>
-              <p style={{ color: '#334155', fontSize: '0.875rem', lineHeight: 1.7, margin: 0 }}>
-                Personal Lab, Room 8<br />
-                Azadi Street<br />
-                Tehran, Iran<br />
-                <span style={{ color: '#94A3B8', fontSize: '0.8rem' }}>Response time: 2–4 business days</span>
-              </p>
-            </div>
+             {/* Office info */}
+            
           </div>
         </div>
       </div>
