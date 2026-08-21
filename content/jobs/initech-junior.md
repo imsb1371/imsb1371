@@ -2,8 +2,8 @@
 jobTitle: Postdoctoral Researcher
 company: Central South University
 location: Changsha, Hunan, China
-startDate: 2024-09-01
-endDate: Present
+startDate: 2024-09-06
+endDate: 2024-07-30
 summary: Conducting interdisciplinary research at the intersection of machine learning, probabilistic modeling, and environmental/resilience engineering, with a focus on uncertainty-aware prediction systems for natural hazards and contamination remediation.
 tags:
   [
